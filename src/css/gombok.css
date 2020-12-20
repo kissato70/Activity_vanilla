@@ -1,0 +1,132 @@
+
+div.gombcsoport {
+  position: relative;
+  margin: 0.2rem auto;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  --flex-wrap: wrap;
+}
+div.gomb {
+  display: inline-block;
+  height: 2rem;
+  padding:.3rem .6rem;
+  border-radius: .6rem;
+  margin: .3rem 1rem;
+  font-size: 1.2rem;
+  line-height:1.8rem;
+  cursor:pointer;
+  flex: auto;
+  min-width: 25vw;
+  box-shadow: 3px 3px 10px #a0a0a0;
+}
+div.gomb div{
+  margin: 0 7px;
+  height: 95%;
+  width: 2.5rem;
+  display: inline-block;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+div.gomb span{
+  display: inline-block;
+  height: 100%;
+  --width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  margin: 0.2rem .5rem;
+}
+div.gomb.nyuszi {
+  background-color: #fbff00;
+}
+div.gomb.nyuszi div{
+  background-image: url('../img/nyuszi.png');
+}
+div.gomb.korbe {
+  background-color: #fbff00;
+}
+div.gomb.korbe div{
+  background-image: url('../img/korbe.png');
+}
+div.gomb.mutogat {
+  background-color: #f8ff90;
+}
+div.gomb.mutogat div{
+  background-image: url('../img/mutogat.png');
+}
+div.gomb.rajzol {
+  background-color: #f8ff90;
+}
+div.gomb.rajzol div{
+  background-image: url('../img/rajzol.png');
+}
+div.gomb.elmond {
+  background-color: #f8ff90;
+}
+div.gomb.elmond div{
+  background-image: url('../img/elmond.png');
+}
+div.gomb:hover {
+  border-color: #ff4477;
+  background-color: #f0a8db;
+}
+div.gomb.kivalasztva {
+  border-color: #ff3377;
+  background-color: #f088bb;
+  --color: #ff3377;
+  cursor:default;
+}
+div.gomb.kivalasztva span {
+  font-weight:bold;
+}
+
+div.gomb.huzas {
+  display: block;
+  margin: 1vh auto;
+  position: relative;
+  width: 40vw;
+  height: 6vh;
+  font-size: 3vh;
+  background-color: #ff3355;
+  border-radius: 15px;
+  border-width: 5px;
+  border-color: #fbff00;
+  color: #fbff00;
+}
+div.gomb.huzas:hover{
+  border-color: #ffffff;
+  color: #ffffff;
+}
+div.gomb.huzas span, div.gomb.keveres span{
+  width: 100%;
+  height:100%;
+  line-height:100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.gomb.keveres {
+  display: block;
+  margin: 5px auto;
+  position: relative;
+  width: 40vw;
+  height: 6vh;
+  font-size: 3vh;
+  background-color: #3355ff;
+  border-radius: 15px;
+  border-width: 5px;
+  border-color: #fbff00;
+  color: #fbff00;
+}
+div.gomb.keveres:hover{
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+div.gomb.huzas, div.gomb.keveres {
+  padding: 0;
+}

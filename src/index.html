@@ -1,0 +1,82 @@
+</<!DOCTYPE html>
+<html lang="hu" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta property="og:image" content="http://activity.kekalma.hu/img/activity_online.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://activity.kekalma.hu" />
+    <meta property="og:title" content="Activity Online - Kekalma Studio" />
+    <meta property="og:description" content="Ingyenes online Activity kártyajáték, mobil és desktop böngészőre." />
+    <title>Activity online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magic/1.1.0/magic.min.css">
+    <link rel="stylesheet" href="./css/activity.css">
+    <script type="module" src="./js/index.js"></script>
+</head>
+
+<body>
+    <div class="landscape">
+        <span>A játék függőleges módban használható...</span>
+    </div>
+    <header>
+        <h1>Activity Online</h1>
+    </header>
+    <div class="gombcsoport">
+        <div class="gomb tipus korbe" tipus="0" id="T0">
+            <div></div>
+            <span>Más és más</span>
+        </div>
+        <div class="gomb tipus mutogat" tipus="1" id="T1">
+            <div></div>
+            <span>Mutogatás</span>
+        </div>
+        <div class="gomb tipus rajzol" tipus="2" id="T2">
+            <div></div>
+            <span>Rajzolás</span>
+        </div>
+        <div class="gomb tipus elmond" tipus="4" id="T4">
+            <div></div>
+            <span>Elmesélés</span>
+        </div>
+        <div class="gomb tipus nyuszi kivalasztva" tipus="7" id="T7">
+            <div></div>
+            <span>Véletlen</span>
+        </div>
+    </div>
+    <div class="lapok">
+        <div class="balra">
+        </div>
+        <div class="kozep">
+            <div class="kartya" id="K0">
+                <span></span>
+                <p id="cimszo">Activity</p>
+            </div>
+            <div class="kartya nyuszi" id="K1">
+                <span></span>
+                <p id="cimszo">Activity</p>
+            </div>
+            <div class="kartya titkos">
+                <span></span>
+                <p id="cimszo">- ELREJTVE -</p>
+            </div>
+            <div id="keveres">
+                <div id="progress"></div>
+            </div>
+        </div>
+        <div class="jobbra">
+        </div>
+    </div>
+
+    <div class="gomb huzas">
+        <span>Új kártya</span>
+    </div>
+
+    <div class="gomb keveres">
+        <span>Újrakeverés</span>
+    </div>
+
+</body>
+
+</html>

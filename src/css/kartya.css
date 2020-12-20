@@ -1,0 +1,146 @@
+div.lapok{
+  position:relative;
+  display: block;
+  margin: 3vh auto;
+  height: 360px;
+  width: 270px;
+  max-width: 90vw;
+  max-height: 100vw;
+  min-width: 30vw;
+  min-height: 30vw;
+}
+/* div.balra, div.jobbra {
+  height: 100%;
+  width: 70px;
+  background-size: 100% 100%;
+  max-width: 7.5vw;
+  min-width: 5vw;
+  cursor:pointer;
+  border-radius: 50px;
+} */
+/* div.balra:hover, div.jobbra:hover {
+  background-color: #ccc;
+} */
+/* div.balra {
+  background-image: url('../img/balra.png');
+  display: inline-block;
+  margin-right: 5px;
+} */
+div.kozep {
+  position: relative;
+  display: inline-block;
+  width:100%;
+  height:100%;
+}
+/* div.jobbra {
+  background-image: url('../img/jobbra.png');
+  display: inline-block;
+  margin-left: 5px;
+} */
+div#keveres{
+  position:absolute;
+  top:45%;
+  left: 10%;
+  right: 10%;
+  height: 10%;
+  border: 2px solid #f0f0ff;
+  background-color: #808080;
+  display: none;
+  z-index: 2;
+}
+div#progress {
+  position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:0;
+  background-color:#f0f0ff;
+}
+div.kartya {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: #D8FC87;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 5px solid #2A573B;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px #a0a0a0;
+  background-image: url('../img/hatlap.jpg');
+  background-size: 100% 100%;
+}
+div.kartya.repul {
+  box-shadow: none;
+}
+div.kartya span{
+  display: block;
+  width: 100%;
+  padding: 0 3px;
+  font-size: 24px;
+  position:absolute;
+  top: 5px;
+  left:0;
+  text-align: left;
+  color: #ff3355;
+  font-style: italic;
+  color: #ff3355;
+  text-align: center;
+  margin-top: 2vh;
+}
+div.kartya p{
+  display: block;
+  width: 100%;
+  height: 25px;
+  font-size: 25px;
+  position:absolute;
+  bottom: 10px;
+  left:0;
+  text-align: center;
+  color: #22aa33;
+}
+
+div.kartya.nyuszi {
+  background-image: url('../img/nyuszi.png');
+  background-size: 80% 60%;
+}
+div.kartya.nyuszi span::before{
+  content: "Válassz típust \A és húzz kártyát!";
+  background-size: 80% 60%;
+  white-space: pre-wrap;
+}
+div.kartya.mutogat {
+  background-image: url('../img/mutogat.png');
+  background-size: 80% 60%;
+}
+div.kartya.mutogat span::before{
+  content: "Mutogasd el!";
+}
+div.kartya.titkos {
+  background-color: #cacaca;
+  background-image: url('../img/titok.png');
+  background-size: 80% 60%;
+  display: none;
+  z-index: 3;
+}
+div.kartya.titkos span::before{
+  content: "Kattints ide!";
+}
+
+
+div.kartya.rajzol {
+  background-image: url('../img/rajzol.png');
+  background-size: 80% 60%;
+}
+div.kartya.rajzol span::before{
+  content: "Rajzold le!";
+}
+
+div.kartya.elmond {
+  background-image: url('../img/elmond.png');
+  background-size: 80% 60%;
+}
+div.kartya.elmond span::before{
+  content: "Mondd el szavakkal!";
+}

@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 5vh;
+  }
+}
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 3vh;
+  }
+}
+body {
+  background-color: #f0f0ff;
+  font-family: 'Baloo Paaji 2', cursive;
+  --box-sizing: ;
+}
+header{
+  background-color: #3366ff;
+  background-color: #22515D;
+  height: 1.2rem;
+  padding: 0.1rem 5vw;
+}
+header h1{
+  margin: 5px auto;
+  display: block;
+  text-align: center;
+  color: #fbff00;
+  font-size: 1rem;
+}
